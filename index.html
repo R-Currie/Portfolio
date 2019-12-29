@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Robert Currie</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- Forked from a template on Tutorialzine: https://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox -->
+    <header>
+      <h2><a href="#">Mountain Travel</a></h2>
+      <nav>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div
+        class="background-image"
+        style="background-image: url(assets/img/main.jpg);"
+      ></div>
+      <div class="hero-content-area">
+        <h1>Robert Currie</h1>
+        <div class="hero-info">
+          <h3>Web Engineer</h3>
+          <h3>Chicago, Illinois</h3>
+        </div>
+        <ul class="icons">
+          <li class="contact-link">
+            <a href="https://github.com/R-Currie" target="_blank"
+              ><i class="fa fa-github-square fa-2x"></i><br /><span
+                >Github</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/r-currie/" target="_blank"
+              ><i class="fa fa-linkedin-square fa-2x"></i><br /><span
+                >LinkedIn</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="resume.pdf" target="_blank"
+              ><i class="fa fa-share-square fa-2x"></i><br /><span
+                >Resume</span
+              ></a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="destinations">
+      <h3 class="title">Full Stack Education</h3>
+      <hr />
+      <p>
+        I graduated college just after discovering my love of coding and hopped
+        right into a bootcamp.
+
+        <br />
+        <br />
+
+        The UC Berkeley coding bootcamp focused on Ruby on Rails. I supplemented
+        this information with courses and self education including Colt Steele's
+        advanced web developer bootcamp, a 47-hour React course, coding
+        challenges on CodeWars and some C# game development using the Unity
+        engine.
+
+        <br />
+        <br />
+
+        I strive to be improve at something every single day.
+      </p>
+
+      <ul class="grid">
+        <li
+          class="small"
+          style="background-image: url(assets/img/mountain1.jpg);"
+        ></li>
+        <li
+          class="large"
+          style="background-image: url(assets/img/mountain2.jpg);"
+        ></li>
+        <li
+          class="large"
+          style="background-image: url(assets/img/mountain3.jpg);"
+        ></li>
+        <li
+          class="small"
+          style="background-image: url(assets/img/mountain4.jpg);"
+        ></li>
+      </ul>
+    </section>
+
+    <section id="projects" class="projects">
+      <h3 class="title">Projects</h3>
+      <p></p>
+      <hr />
+
+      <ul class="grid">
+        <li>
+          <img class="pin" src="./assets/img/ImageSearch.png" />
+          <h4>Unsplash Image Search</h4>
+          <p>
+            A simple image search made with React using the Unsplash API to load
+            images using lifecycle methods to avoid reloading the page.
+          </p>
+        </li>
+        <li>
+          <img class="pin" src="./assets/img/macondo.png" />
+          <h4>National Park Website</h4>
+          <p>
+            A website for a fictional national park using react to have an
+            interactive, reactive, and polished UI that transitions seamlessly
+            between pages. No CSS libraries were used.
+          </p>
+        </li>
+        <li>
+          <img class="pin" src="./assets/img/mello.png" />
+          <h4>Mello</h4>
+          <p>
+            A complete list-making/agile scrum board application inspired by
+            Trello. Features user authentication from scratch and drag and drop
+            sorting.
+          </p>
+        </li>
+        <li>
+          <img class="pin" src="./assets/img/colorgame.png" />
+          <h4>Unsplash Image Search</h4>
+          <p>
+            A simple image search made with React using the Unsplash API to load
+            images using lifecycle methods to avoid reloading the page.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills" class="skills">
+      <h3 class="title">Skills</h3>
+      <hr />
+      <p class="quote">
+        Wow! This tour made me realize how much I love mountains. After going on
+        one of these tours, I can safely say that they are my favorite
+        geographic feature, and my favorite word that starts with M.
+      </p>
+      <p class="author">- Colt Steele</p>
+      <p class="quote">
+        I never understood why people cared so much about mountains. But then I
+        went on one of these tours. Now I can't understand people who
+        <em>don't</em> care about mountains!
+      </p>
+      <p class="author">- Elie Schoppik</p>
+      <p class="quote">
+        If you want to understand the universe, head to the mountains. I mean,
+        seriously. It's like, woah. You know? It's like that.
+      </p>
+      <p class="author">- Tim Garcia</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h3 class="title">Contact Me</h3>
+      <hr />
+      <h4>
+        Email me at:
+        <a class="email" target="_blank" href="mailto:currierobertm@gmail.com"
+          >CurrieRobertM@gmail.com</a
+        >
+      </h4>
+      <br />
+      <br />
+    </section>
+
+    <footer>
+      <p>Images courtesy of <a href="http://unsplash.com/">unsplash</a>.</p>
+      <p>
+        Why are you even reading this?! There's never anything interesting in
+        the footer!
+      </p>
+      <ul>
+        <li>
+          <a href="https://github.com/R-Currie" target="_blank"
+            ><i class="fa fa-github-square fa-2x"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/r-currie/" target="_blank"
+            ><i class="fa fa-linkedin-square fa-2x"></i
+          ></a>
+        </li>
+        <li>
+          <a href="resume.pdf" target="_blank"
+            ><i class="fa fa-share-square fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="./assets/js/smooth-scroll.polyfills.min.js"></script>
+  </body>
+</html>
