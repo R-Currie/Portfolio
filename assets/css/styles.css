@@ -472,3 +472,72 @@ footer p {
 .email:hover {
   text-decoration: underline;
 }
+
+/* Individual projects section */
+
+.project {
+  font: normal 16px sans-serif;
+  display: flex;
+}
+
+.caption {
+  display: flex;
+}
+
+.caption .screenshot {
+  width: 800px;
+  height: auto;
+}
+
+.project .title {
+  font-family: "Quicksand";
+  margin-bottom: 25px;
+}
+
+.project .description {
+  text-align: left;
+  border-left: 2px solid maroon;
+  margin-top: 10px;
+}
+
+.link {
+  background-color: maroon;
+  color: white;
+  border: 1px solid white;
+  padding: 15px 10px;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Quicksand";
+  margin: 20px 20px;
+  opacity: 1;
+  transition: 300ms;
+}
+
+.link:hover {
+  background-color: white;
+  color: maroon;
+  border: 1px solid maroon;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 90%;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.tech-ul {
+  list-style: circle;
+  padding-left: 15px;
+}
+
+.tech-ul li {
+  padding-top: 10px;
+}
