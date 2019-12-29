@@ -60,7 +60,7 @@ section:not(.hero):nth-child(even) {
 hr {
   width: 250px;
   height: 3px;
-  background-color: #789472b2;
+  background-color: #78947277;
   border: 0;
   margin-bottom: 50px;
 }
@@ -70,7 +70,7 @@ section h3.title {
   font: bold 32px "Open Sans", sans-serif;
   margin-bottom: 30px;
   text-align: center;
-  color: #442950c9;
+  color: #442950de;
 }
 
 section p {
@@ -490,4 +490,18 @@ ul.icons li a:hover {
   border: 1px solid maroon;
   background-color: white;
   color: maroon;
+}
+
+@media (max-width: 1000px) {
+  .skills-container {
+    width: 90%;
+  }
+  .skill-row .row3 {
+    flex-basis: 75%;
+    border: 1px solid white;
+    background-color: maroon;
+    color: white;
+    transition: 500ms;
+    padding: 10px;
+  }
 }
