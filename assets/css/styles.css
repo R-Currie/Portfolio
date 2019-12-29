@@ -60,7 +60,7 @@ section:not(.hero):nth-child(even) {
 hr {
   width: 250px;
   height: 3px;
-  background-color: #3f51b5;
+  background-color: #789472b2;
   border: 0;
   margin-bottom: 50px;
 }
@@ -70,6 +70,7 @@ section h3.title {
   font: bold 32px "Open Sans", sans-serif;
   margin-bottom: 30px;
   text-align: center;
+  color: #442950c9;
 }
 
 section p {
@@ -251,6 +252,15 @@ header nav li {
 .projects .grid li h4 {
   font-size: 30px;
   margin: 25px 0;
+  color: #4429509d;
+}
+
+.projects .grid li h4:hover {
+  font-size: 30px;
+  margin: 25px 0;
+  color: #442950;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .projects .grid img {
@@ -417,4 +427,67 @@ ul.icons li a:hover {
 
 .email:hover {
   text-decoration: underline;
+}
+
+.skills-container {
+  width: 800px;
+}
+
+.skill-row {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  padding: 0 10px 10px 10px;
+  font-size: 20px;
+  font-family: "Roboto";
+  transition: 500ms;
+}
+
+.skill-row .row2 {
+  flex-basis: 50%;
+  border: 1px solid white;
+  background-color: rgba(128, 0, 0, 0.75);
+  color: white;
+  transition: 500ms;
+  padding: 10px;
+}
+
+.skill-row .row2:hover {
+  flex-basis: 50%;
+  border: 1px solid rgba(128, 0, 0, 0.75);
+  background-color: white;
+  color: rgba(128, 0, 0, 0.75);
+}
+
+.skill-row .alt {
+  flex-basis: 50%;
+  border: 1px solid white;
+  background-color: maroon;
+  color: white;
+  transition: 500ms;
+  padding: 10px;
+}
+
+.skill-row .alt:hover {
+  flex-basis: 50%;
+  border: 1px solid maroon;
+  background-color: white;
+  color: maroon;
+}
+
+.skill-row .row3 {
+  flex-basis: 33%;
+  border: 1px solid white;
+  background-color: maroon;
+  color: white;
+  transition: 500ms;
+  padding: 10px;
+}
+
+.skill-row .row3:hover {
+  flex-basis: 50%;
+  border: 1px solid maroon;
+  background-color: white;
+  color: maroon;
 }
