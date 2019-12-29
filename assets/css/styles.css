@@ -89,16 +89,18 @@ section p {
 /*Header Styles*/
 
 header {
-  position: absolute;
+  position: fixed;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 100px 0;
+  padding: 10px 10px;
   animation: 1s fadein 0.5s forwards;
   opacity: 0;
   color: #fff;
   z-index: 2;
+  position: fixed;
+  background-color: rgba(24, 24, 24, 0.5);
 }
 
 @keyframes fadein {
