@@ -151,6 +151,9 @@ header nav li {
   left: 0;
   width: 100%;
   height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   z-index: -2;
   background-color: #80a3db;
@@ -444,6 +447,10 @@ ul.icons li a:hover {
   transition: 500ms;
 }
 
+.skill-row li {
+  border-radius: 3px;
+}
+
 .skill-row .row2 {
   flex-basis: 50%;
   border: 1px solid white;
@@ -454,7 +461,7 @@ ul.icons li a:hover {
 }
 
 .skill-row .row2:hover {
-  flex-basis: 50%;
+  flex-basis: 75%;
   border: 1px solid rgba(128, 0, 0, 0.75);
   background-color: white;
   color: rgba(128, 0, 0, 0.75);
@@ -470,14 +477,14 @@ ul.icons li a:hover {
 }
 
 .skill-row .alt:hover {
-  flex-basis: 50%;
+  flex-basis: 40%;
   border: 1px solid maroon;
   background-color: white;
   color: maroon;
 }
 
 .skill-row .row3 {
-  flex-basis: 33%;
+  flex-basis: 33.3333333333333%;
   border: 1px solid white;
   background-color: maroon;
   color: white;
