@@ -292,7 +292,8 @@ ul.icons li a:hover {
     flex-basis: 100%;
   }
   .chicago,
-  .train {
+  .train,
+  .dog {
     display: none;
   }
 }
