@@ -604,8 +604,8 @@ footer p {
   width: 150px;
 }
 
-.link:hover {
+.return:hover {
   background-color: maroon;
   color: white;
-  border: 1px solid white;
+  border: 1px solid maroon;
 }
