@@ -425,6 +425,121 @@ ul.icons li a:hover {
   }
 }
 
+/* Individual projects section */
+
+.project {
+  font: normal 16px sans-serif;
+}
+
+.container {
+  width: 80%;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+}
+
+.item .caption {
+  display: flex;
+  flex-direction: column;
+}
+
+.item .caption .screenshot {
+  width: 100%;
+  height: auto;
+  padding-right: 20px;
+  flex-basis: 75%;
+  max-width: 800px;
+}
+
+.item .sidebar {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+}
+
+@media (max-width: 1000px) {
+  .project .container {
+    width: 90%;
+  }
+
+  .project .item {
+    flex-basis: 100%;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .item .sidebar {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .item .sidebar .links {
+    margin-top: 0px;
+  }
+
+  .item .sidebar .github {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .project .container {
+    margin-top: 100px;
+    width: 100%;
+  }
+}
+
+.project .title {
+  font-family: "Quicksand";
+  margin-bottom: 25px;
+}
+
+.project .description {
+  text-align: left;
+  border-left: 2px solid maroon;
+  margin-top: 10px;
+}
+
+.link {
+  background-color: maroon;
+  color: white;
+  border: 1px solid white;
+  padding: 15px 10px;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Quicksand";
+  margin: 20px 20px;
+  opacity: 1;
+  transition: 300ms;
+  text-align: center;
+  width: 150px;
+}
+
+.link:hover {
+  background-color: white;
+  color: maroon;
+  border: 1px solid maroon;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.tech-ul {
+  list-style: circle;
+  padding-left: 15px;
+}
+
+.tech-ul li {
+  padding-top: 10px;
+}
+
 /*Footer Section*/
 
 footer {
@@ -471,73 +586,4 @@ footer p {
 
 .email:hover {
   text-decoration: underline;
-}
-
-/* Individual projects section */
-
-.project {
-  font: normal 16px sans-serif;
-  display: flex;
-}
-
-.caption {
-  display: flex;
-}
-
-.caption .screenshot {
-  width: 800px;
-  height: auto;
-}
-
-.project .title {
-  font-family: "Quicksand";
-  margin-bottom: 25px;
-}
-
-.project .description {
-  text-align: left;
-  border-left: 2px solid maroon;
-  margin-top: 10px;
-}
-
-.link {
-  background-color: maroon;
-  color: white;
-  border: 1px solid white;
-  padding: 15px 10px;
-  border-radius: 3px;
-  font-size: 20px;
-  font-weight: 500;
-  font-family: "Quicksand";
-  margin: 20px 20px;
-  opacity: 1;
-  transition: 300ms;
-}
-
-.link:hover {
-  background-color: white;
-  color: maroon;
-  border: 1px solid maroon;
-}
-
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 90%;
-}
-
-.links {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-top: 50px;
-}
-
-.tech-ul {
-  list-style: circle;
-  padding-left: 15px;
-}
-
-.tech-ul li {
-  padding-top: 10px;
 }
