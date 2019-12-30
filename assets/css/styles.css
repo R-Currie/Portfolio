@@ -291,6 +291,10 @@ ul.icons li a:hover {
   .about .grid li.large {
     flex-basis: 100%;
   }
+  .chicago,
+  .train {
+    display: none;
+  }
 }
 
 /*Projects Section*/
