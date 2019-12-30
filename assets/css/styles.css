@@ -219,6 +219,19 @@ ul.icons li a:hover {
   animation: 1s slidefade 1s forwards;
 }
 
+.scroll {
+  position: absolute;
+  top: 90%;
+  right: 49%;
+  transition: 200ms;
+  opacity: 0.45;
+}
+
+.scroll:hover {
+  transform: scale(1.5);
+  opacity: 0.85;
+}
+
 @keyframes slidefade {
   100% {
     opacity: 1;
