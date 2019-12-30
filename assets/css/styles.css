@@ -560,6 +560,11 @@ ul.icons li a:hover {
 
 /*Footer Section*/
 
+.phone {
+  color: black;
+  opacity: 0.8;
+}
+
 footer {
   display: flex;
   align-items: center;
@@ -584,6 +589,10 @@ footer p {
 }
 
 @media (max-width: 1100px) {
+  .phone {
+    background-color: rgb(83, 83, 83);
+  }
+
   footer {
     flex-direction: column;
   }
@@ -600,6 +609,8 @@ footer p {
 
 .email {
   color: #555;
+  color: black;
+  opacity: 0.8;
 }
 
 .email:hover {
