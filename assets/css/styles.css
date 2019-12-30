@@ -587,3 +587,25 @@ footer p {
 .email:hover {
   text-decoration: underline;
 }
+
+.return {
+  background-color: white;
+  color: maroon;
+  border: 1px solid maroon;
+  padding: 15px 10px;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Quicksand";
+  margin: 20px 20px;
+  opacity: 1;
+  transition: 300ms;
+  text-align: center;
+  width: 150px;
+}
+
+.link:hover {
+  background-color: maroon;
+  color: white;
+  border: 1px solid white;
+}
