@@ -318,13 +318,14 @@ ul.icons li a:hover {
 .projects .grid li h4 {
   font-size: 28px;
   margin: 25px 0;
-  color: #4429509d;
+  color: #165b94a1;
+  transition: 200ms;
 }
 
 .projects .grid li h4:hover {
   font-size: 30px;
   margin: 25px 0;
-  color: #442950;
+  color: #165b94;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -514,6 +515,11 @@ ul.icons li a:hover {
 .project .title {
   font-family: "Quicksand";
   margin-bottom: 25px;
+  color: #0d3a4f;
+}
+
+.project .tech-title {
+  color: #0d3a4f;
 }
 
 .project .description {
@@ -551,9 +557,32 @@ ul.icons li a:hover {
   margin-top: 50px;
 }
 
+.return {
+  background-color: white;
+  color: #0d3a4f;
+  border: 1px solid #0d3a4f;
+  padding: 15px 10px;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Quicksand";
+  margin: 20px 20px;
+  opacity: 1;
+  transition: 300ms;
+  text-align: center;
+  width: 150px;
+}
+
+.return:hover {
+  background-color: #0d3a4f;
+  color: white;
+  border: 1px solid #0d3a4f;
+}
+
 .tech-ul {
   list-style: circle;
   padding-left: 15px;
+  color: #165b94;
 }
 
 .tech-ul li {
@@ -561,11 +590,6 @@ ul.icons li a:hover {
 }
 
 /*Footer Section*/
-
-.phone {
-  color: black;
-  opacity: 0.8;
-}
 
 footer {
   display: flex;
@@ -609,34 +633,16 @@ footer p {
   }
 }
 
-.email {
-  color: #555;
-  color: black;
+.contact {
+  color: #165b94;
+}
+
+.email,
+.phone {
+  color: #0d3a4f;
   opacity: 0.8;
 }
 
 .email:hover {
   text-decoration: underline;
-}
-
-.return {
-  background-color: white;
-  color: #0d3a4f;
-  border: 1px solid #0d3a4f;
-  padding: 15px 10px;
-  border-radius: 3px;
-  font-size: 20px;
-  font-weight: 500;
-  font-family: "Quicksand";
-  margin: 20px 20px;
-  opacity: 1;
-  transition: 300ms;
-  text-align: center;
-  width: 150px;
-}
-
-.return:hover {
-  background-color: #0d3a4f;
-  color: white;
-  border: 1px solid #0d3a4f;
 }
