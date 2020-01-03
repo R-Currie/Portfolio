@@ -60,7 +60,7 @@ section:not(.hero):nth-child(even) {
 hr {
   width: 250px;
   height: 3px;
-  background-color: #e09d2a81;
+  background-color: #165b94;
   border: 0;
   margin-bottom: 50px;
 }
@@ -70,7 +70,7 @@ section h3.title {
   font: bold 38px "Open Sans", sans-serif;
   margin-bottom: 30px;
   text-align: center;
-  color: maroon;
+  color: #0d3a4f;
 }
 
 section p {
@@ -205,8 +205,13 @@ ul.icons li a:hover {
   font: normal 28px "Quicksand", sans-serif;
 }
 
+.hero-name {
+  color: #0d3a4f;
+}
+
 .hero-info {
   margin-bottom: 40px;
+  color: #165b94;
 }
 
 .hero a.btn {
@@ -384,7 +389,7 @@ ul.icons li a:hover {
 .skill-row .row2 {
   flex-basis: 50%;
   border: 1px solid white;
-  background-color: #8b1e3fc9;
+  background-color: #0d3a4f;
   color: white;
   transition: 500ms;
   padding: 10px;
@@ -392,15 +397,15 @@ ul.icons li a:hover {
 
 .skill-row .row2:hover {
   flex-basis: 75%;
-  border: 1px solid #8b1e3fc9;
+  border: 1px solid #0d3a4f;
   background-color: white;
-  color: #8b1e3fc9;
+  color: #0d3a4f;
 }
 
 .skill-row .alt {
   flex-basis: 50%;
   border: 1px solid white;
-  background-color: maroon;
+  background-color: #165b94;
   color: white;
   transition: 500ms;
   padding: 10px;
@@ -408,15 +413,15 @@ ul.icons li a:hover {
 
 .skill-row .alt:hover {
   flex-basis: 40%;
-  border: 1px solid maroon;
+  border: 1px solid #165b94;
   background-color: white;
-  color: maroon;
+  color: #165b94;
 }
 
 .skill-row .row3 {
   flex-basis: 33.3333333333333%;
   border: 1px solid white;
-  background-color: maroon;
+  background-color: #165b94;
   color: white;
   transition: 500ms;
   padding: 10px;
@@ -424,9 +429,9 @@ ul.icons li a:hover {
 
 .skill-row .row3:hover {
   flex-basis: 50%;
-  border: 1px solid maroon;
+  border: 1px solid #165b94;
   background-color: white;
-  color: maroon;
+  color: #165b94;
 }
 
 @media (max-width: 1000px) {
@@ -435,9 +440,6 @@ ul.icons li a:hover {
   }
   .skill-row .row3 {
     flex-basis: 75%;
-    border: 1px solid white;
-    background-color: #8b1e3f;
-    color: white;
     transition: 500ms;
     padding: 10px;
   }
@@ -516,12 +518,12 @@ ul.icons li a:hover {
 
 .project .description {
   text-align: left;
-  border-left: 2px solid maroon;
+  border-left: 2px solid #0d3a4f;
   margin-top: 10px;
 }
 
 .link {
-  background-color: maroon;
+  background-color: #165b94;
   color: white;
   border: 1px solid white;
   padding: 15px 10px;
@@ -538,8 +540,8 @@ ul.icons li a:hover {
 
 .link:hover {
   background-color: white;
-  color: maroon;
-  border: 1px solid maroon;
+  color: #165b94;
+  border: 1px solid #165b94;
 }
 
 .links {
@@ -619,8 +621,8 @@ footer p {
 
 .return {
   background-color: white;
-  color: maroon;
-  border: 1px solid maroon;
+  color: #0d3a4f;
+  border: 1px solid #0d3a4f;
   padding: 15px 10px;
   border-radius: 3px;
   font-size: 20px;
@@ -634,7 +636,7 @@ footer p {
 }
 
 .return:hover {
-  background-color: maroon;
+  background-color: #0d3a4f;
   color: white;
-  border: 1px solid maroon;
+  border: 1px solid #0d3a4f;
 }
