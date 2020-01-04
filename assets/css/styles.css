@@ -373,7 +373,7 @@ ul.icons li a:hover {
 .skill-row .row2 {
   flex-basis: 50%;
   border: 1px solid white;
-  background-color: #1b4e68;
+  background-color: #165b94;
   color: white;
   transition: 500ms;
   padding: 10px;
@@ -381,9 +381,9 @@ ul.icons li a:hover {
 
 .skill-row .row2:hover {
   flex-basis: 75%;
-  border: 1px solid #1b4e68;
+  border: 1px solid #165b94;
   background-color: white;
-  color: #1b4e68;
+  color: #165b94;
 }
 
 .skill-row .alt {
