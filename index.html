@@ -14,6 +14,7 @@
       integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
   </head>
@@ -90,7 +91,7 @@
 
       <ul class="grid">
         <li
-          class="small"
+          class="small" data-aos="fade-right"
           style="background-image: url(assets/img/code.jpg);"
         ></li>
         <li
@@ -98,11 +99,11 @@
           style="background-image: url(assets/img/train.jpg);"
         ></li>
         <li
-          class="large chicago"
+          class="large chicago" 
           style="background-image: url(assets/img/chi.jpg);"
         ></li>
         <li
-          class="small dog"
+          class="small dog" data-aos="fade-left"
           style="background-image: url(assets/img/dachshund.jpg);"
         ></li>
       </ul>
@@ -225,5 +226,9 @@
     </footer>
 
     <script src="./assets/js/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
