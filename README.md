@@ -1,8 +1,8 @@
 # My Portfolio
 
-# [Link](robertcurrie.netlify.com) to live app
+### [Link](robertcurrie.netlify.com) to live app
 
-# Personal portfolio made using all custom and responsive HTML, CSS, and JavaScript
+ Personal portfolio made using all custom and responsive HTML, CSS, and JavaScript
 
 ### Getting Started
 * Create an account or sign in with Gmail
