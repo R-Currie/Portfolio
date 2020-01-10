@@ -609,10 +609,6 @@ footer p {
 }
 
 @media (max-width: 1100px) {
-  .phone {
-    background-color: rgb(83, 83, 83);
-  }
-
   footer {
     flex-direction: column;
   }
@@ -639,4 +635,10 @@ footer p {
 
 .email:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .phone {
+    background-color: rgb(83, 83, 83);
+  }
 }
