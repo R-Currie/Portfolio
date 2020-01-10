@@ -602,6 +602,12 @@ footer p {
   align-self: center;
 }
 
+.footer-link {
+  text-decoration: underline;
+  color: #fff;
+  opacity: 1;
+}
+
 @media (max-width: 1100px) {
   .phone {
     background-color: rgb(83, 83, 83);
