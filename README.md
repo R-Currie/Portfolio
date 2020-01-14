@@ -3,6 +3,9 @@
 ### [Link](robertcurrie.netlify.com) to live app
 
  Personal portfolio made using all custom and responsive HTML, CSS, and JavaScript
+ 
+ ### Demo
+ ![Portfolio Demo](https://i.imgur.com/RDOfK3l.mp4)
 
 ### Getting Started
 * Create an account or sign in with Gmail
