@@ -319,14 +319,8 @@ ul.icons li a:hover {
 }
 
 .pin {
-  transition: 300ms ease-in;
   border-radius: 0.35em;
-  border: 0;
-}
-
-.pin:hover {
-  transition: 300ms ease-out;
-  transform: scale(1.3);
+  transition: 300ms;
 }
 
 @media (max-width: 1000px) {
@@ -338,15 +332,6 @@ ul.icons li a:hover {
   .projects .grid img {
     width: 100%;
     height: auto;
-  }
-
-  .pin {
-    transition: 0ms;
-  }
-
-  .pin:hover {
-    transition: 0ms ease-out;
-    transform: scale(1);
   }
 
   .projects .grid img {
