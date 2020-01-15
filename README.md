@@ -18,6 +18,7 @@
 * JavaScript ES10
 * [Font Awesome](https://fontawesome.com/) 5.12.0
 * [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll) 15.1.3
+* [Animated on Scroll](https://michalsnik.github.io/aos/) 2.3.1
 
 
 ### Installing
