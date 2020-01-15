@@ -5,7 +5,7 @@
  Personal portfolio made using all custom and responsive HTML, CSS, and JavaScript
  
  ### Demo
- ![Portfolio Demo](https://i.imgur.com/RDOfK3l.mp4)
+ ![Portfolio Demo](assets/demo/portfolio.gif)
 
 ### Getting Started
 * Create an account or sign in with Gmail
