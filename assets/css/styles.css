@@ -627,4 +627,8 @@ footer p {
     background-color: rgb(83, 83, 83);
     color: #fff;
   }
+
+  #brand {
+    display: none;
+  }
 }
