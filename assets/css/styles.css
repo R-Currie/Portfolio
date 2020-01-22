@@ -294,10 +294,6 @@ ul.icons li a:hover {
   text-align: center;
 }
 
-.projects .grid li i {
-  color: #8c9eff;
-}
-
 .projects .grid li h4 {
   font-size: 28px;
   margin: 25px 0;
@@ -316,6 +312,22 @@ ul.icons li a:hover {
 .projects .grid img {
   width: 100%;
   height: 70%;
+}
+
+.projects .link {
+  background-color: #165b94;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 10px;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Quicksand";
+  margin: 20px 20px;
+  opacity: 1;
+  transition: 300ms;
+  text-align: center;
+  width: 150px;
 }
 
 .pin {
