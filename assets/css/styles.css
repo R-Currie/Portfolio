@@ -25,6 +25,10 @@ a {
   color: #fff;
 }
 
+#picture-a {
+  opacity: 1;
+}
+
 header a:hover {
   opacity: 1;
   cursor: pointer;
