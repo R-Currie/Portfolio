@@ -298,6 +298,10 @@ ul.icons li a:hover {
   text-align: center;
 }
 
+.projects .grid li:hover h4 {
+  text-decoration: underline;
+}
+
 .projects .grid li h4 {
   font-size: 28px;
   margin: 25px 0;
