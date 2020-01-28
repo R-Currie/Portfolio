@@ -1,6 +1,6 @@
 # My Portfolio
 
-### [Link](robertcurrie.netlify.com) to live app
+### [Link](https://robertcurrie.netlify.com/) to live app
 
  Personal portfolio made using all custom and responsive HTML, CSS, and JavaScript
  
